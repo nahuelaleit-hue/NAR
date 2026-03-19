@@ -1,6 +1,6 @@
-import { useState } from “react”;
+import { useState } from "react";
 
-const ACCESS_CODE = “46587949”;
+const ACCESS_CODE = "46587949";
 
 function LoginScreen({ onAccess }) {
 const [code, setCode] = useState(””);
